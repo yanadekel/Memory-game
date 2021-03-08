@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width:100vw;
+}
+header {
+  margin:auto;
+  height: 5%;
+  width:100%
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.game-info-container{
+  width:100%;
+  margin: auto;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+}
+.game-info {
+  font-size: 32px;
+  text-align: center;
+  margin-left:10px;
+}
+
+#memory{
+  background-color:black;
+  margin: auto;
+  width:800px;
+  height:500px;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  padding:20px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+img {
+  width: 171px;
+  height: 150px; 
+}
